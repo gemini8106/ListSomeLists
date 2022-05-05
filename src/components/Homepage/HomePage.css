@@ -1,0 +1,16 @@
+#homepage_container{
+  text-align: center;
+}
+.list_title{
+  font-size: 60px;
+}
+#btn_tolist{
+  height: 50px;
+  font-size: 30px;
+  border:0;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(94, 72, 72, 0.6);
+  color: white;
+  padding: 10px;
+}
