@@ -1,8 +1,8 @@
 import React from "react";
 import '../TodoList/TodoList.css'
 
+////由listpage取得的prop(todos, handleDeleteId)，使用map函數對array取值，react中要給每一個數key value
 const TodoList = ({todos, handleDeleteId}) =>{
-  console.log(todos)
   const lists = todos.map((list,id) => 
   <div key={id} id={id}>
     <div >
